@@ -11,6 +11,7 @@ void draw(){
    board.updateSelectArea();
   board.updateCommentArea("Choose Your Hand");
 }
+// tesuto
 void mouseReleased() {
   if (mouseX>=0 && mouseX <= 150 && mouseY >=0 && mouseY <= 150) {
     board.updateResultArea(game.getJankenResult("Gu"));
